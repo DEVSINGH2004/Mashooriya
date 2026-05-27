@@ -37,7 +37,7 @@ main{
         width: 100%;
         object-fit: contain;
         object-position: center;
-        animation: spin 10s linear infinite;
+        animation: spin 5s linear infinite;
     }
 }
 
@@ -69,7 +69,6 @@ main{
     img{
         height: 100%;
         width: 100%;
-
     }
 }
 
@@ -78,6 +77,6 @@ main{
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(10deg);
+    transform: rotate(7deg);
   }
 }
