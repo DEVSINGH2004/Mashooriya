@@ -41,6 +41,17 @@ main{
     }
 }
 
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(90deg, transparent, #f0c97a, #fff8e7, #f0c97a, transparent) 1;
+}
+
+
+
 .text-container{
     position: absolute;
     width: 100%;
