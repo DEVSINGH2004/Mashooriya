@@ -84,14 +84,18 @@ main{
 
 .footer-container{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     bottom: 0%;
     left: 50%;
     transform: translateX(-50%);
     /* background-color: #b57533; */
     img{
+        align-items: center;
         height: 100%;
-        width: 100%;
+        width: 97%;
     }
 }
 
